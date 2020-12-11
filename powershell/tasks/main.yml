@@ -1,5 +1,5 @@
 ---
 # tasks file for powershell
 - name: Run powershell script
-  script: shared-files/directorio_pepe.ps1 {{ nombre_directorio }}
+  script: carpeta.ps1 {{ nombre_directorio }}
 
