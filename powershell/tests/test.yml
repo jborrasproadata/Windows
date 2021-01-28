@@ -1,5 +1,7 @@
 ---
-- hosts: localhost
-  remote_user: root
-  roles:
-    - powershell
+- name: Create directory structure
+ win_file:
+    path: C:\Temp\folder\subfolder
+    state: directory
+    
+    
